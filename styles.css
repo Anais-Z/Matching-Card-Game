@@ -3,9 +3,15 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
 main > div:first-child{
     display: grid;
-    grid-template-columns: 150px 150px 150px 150px;
-    grid-template-rows: 150px 150px;
+    grid-template-columns: 190px 190px 190px 190px;
+    grid-template-rows: 270px 270px;
 }
 
+div > p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
